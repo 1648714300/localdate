@@ -67,6 +67,14 @@ git clone https://github.com/1648714300/localdate ~/.claude/skills/localdate
 
 ![](assets/sample.png)
 
+**三张宣传卡**（同一套输出，三种讲法）：
+
+<p>
+  <img src="assets/card-book.png" width="30%" alt="换个地方就是另一个约会">
+  <img src="assets/card-swan.png" width="30%" alt="06:20 蔡城塘看天鹅">
+  <img src="assets/card-math.png" width="30%" alt="千亿级是乘法">
+</p>
+
 真实运行的第 9 轮（淮南），原文照抄三条：
 
 > **一块钱坐轮渡过淮河**。去淮上渡口，花一个傍晚，买两张手撕票，站在甲板上三分钟渡到对岸高皇镇，逛一圈乡镇集市再坐回来，回岸正好落日把河面铺成金色。渡口在田家庵淮舜北路，1897 年就有了，5:00-22:00 满员即发，行人 1 元一次；16 点到 19 点光最好。下船去淮滨美食街吃泡菜臭豆腐和现冲藕粉八宝粥。想约就说："带你去坐一块钱的轮渡，三分钟过淮河，回来正好日落。"
@@ -136,6 +144,7 @@ localdate/
 ├── QUICKSTART.md               # 三步上手
 ├── FEEDBACK.md                 # 反馈闭环：三种通道 + 特征标签表
 ├── ALGORITHM.md                # 权重学习算法（Bradley-Terry / Elo / 衰减 / UCB）
+├── docs/family-coverage.md     # 族类覆盖审计：对照网上千项约会清单逐族核对
 ├── README_EN.md                # English
 ├── CHANGELOG.md
 ├── CONTRIBUTING.md             # 怎么贡献一个城市包
