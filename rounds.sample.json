@@ -1,0 +1,130 @@
+[
+ {
+  "round": 1,
+  "kept": [
+   "tasting_book",
+   "library",
+   "boat",
+   "sunset"
+  ],
+  "rejected": [
+   "study_room",
+   "street_bookstore",
+   "home_routine"
+  ]
+ },
+ {
+  "round": 2,
+  "kept": [
+   "cycling",
+   "library",
+   "boat",
+   "sunset",
+   "arcade",
+   "picking"
+  ],
+  "rejected": [
+   "coffee_tasting",
+   "study_room",
+   "tea_house"
+  ]
+ },
+ {
+  "round": 3,
+  "kept": [],
+  "rejected": [
+   "script_game",
+   "cat_cafe",
+   "vr"
+  ]
+ },
+ {
+  "round": 4,
+  "kept": [
+   "static_sight"
+  ],
+  "rejected": [
+   "old_street",
+   "hot_spring",
+   "far_trip"
+  ]
+ },
+ {
+  "round": 5,
+  "kept": [
+   "event_limited",
+   "animal",
+   "sunset",
+   "park",
+   "night_market",
+   "hot_spring"
+  ],
+  "rejected": [
+   "mall",
+   "far_trip"
+  ]
+ },
+ {
+  "round": 6,
+  "kept": [
+   "performance",
+   "event_limited",
+   "park",
+   "hot_spring",
+   "animal"
+  ],
+  "rejected": [
+   "static_sight",
+   "old_street",
+   "home_routine",
+   "old_town"
+  ]
+ },
+ {
+  "round": 7,
+  "kept": [
+   "animal",
+   "performance",
+   "park",
+   "hot_spring",
+   "far_trip"
+  ],
+  "rejected": [
+   "old_street",
+   "old_town",
+   "mall"
+  ]
+ },
+ {
+  "round": 8,
+  "kept": [
+   "sport_light",
+   "animal",
+   "event_limited",
+   "performance",
+   "park",
+   "hot_spring",
+   "far_trip"
+  ],
+  "rejected": [
+   "passive_service",
+   "movie"
+  ]
+ },
+ {
+  "round": 9,
+  "kept": [
+   "picking",
+   "boat",
+   "sport_light",
+   "event_limited",
+   "cycling",
+   "hot_spring",
+   "far_trip"
+  ],
+  "rejected": [
+   "mall",
+   "static_sight"
+  ]
+ }
+]
