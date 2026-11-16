@@ -10,30 +10,54 @@
 
 **如果你是从狗头军师搜过来的**：不用犹豫，安装方式一样，都是丢一个仓库地址给 AI 助手就完事。
 
-## 安装
+## 安装：三种指名方式，都不用背链接
 
-**方式一：把仓库地址丢给 AI 助手（推荐，和狗头军师一样的装法）**
-
-```
-请将公开仓库 https://github.com/1648714300/localdate 下载并安装为本地 Skill。
-```
-
-装完输入：
+**方式一 · 用名字指（推荐）**
 
 ```
-请使用约会军师给我一轮约会方案，城市包用淮南。
+装「约会军师」。GitHub 上搜 localdate，作者 1648714300，描述里写着「狗头军师的约会场景版」，装成 skills 目录下的本地技能。
 ```
 
-**方式二：手动放进技能目录**
+名字才是主键：仓库名 `localdate`，标题「约会军师 · LocalDate」，description 和 topics 里都带 `goutoujunshi` / `dating` / `date-ideas`。那串数字只是账号身份证，不用记。
+
+**方式二 · 一行命令（脚本会顺手留个短名）**
+
+macOS / Linux / Git Bash：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/1648714300/localdate/main/install.sh | bash
+```
+
+Windows PowerShell：
+
+```powershell
+irm https://raw.githubusercontent.com/1648714300/localdate/main/install.ps1 | iex
+```
+
+装完技能目录里会多一个短名 `date`（指向同一份技能），以后不必再提仓库地址。
+
+**方式三 · 短名指（装一次，永久生效）**
+
+```
+/date 排这个周末的约会
+```
+
+或者带上条件一句话：
+
+```
+约会军师，淮南，周六下午，预算 100，她不太爱走路。
+```
+
+**附：手动放进技能目录**
 
 ```bash
 # WorkBuddy
 git clone https://github.com/1648714300/localdate ~/.workbuddy-4/skills/localdate
-# Claude Code / 其他支持 skills 的助手同理：
+# Claude Code / 其他支持 skills 的助手同理
 git clone https://github.com/1648714300/localdate ~/.claude/skills/localdate
 ```
 
-**方式三：任意 LLM 对话里用**
+**方式四 · 任意 LLM 对话里用**
 
 把仓库里的 `SKILL.md` 全文复制进系统提示或首条消息，再把你所在城市对应的 `city-packs/` 目录一起发过去。没有你的城市就先发 `city-pack-template/`。
 

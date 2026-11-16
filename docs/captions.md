@@ -1,10 +1,12 @@
 # 配文三版（2026-11-16 · 配三张图）
 
-一键安装（复制粘贴给任意 AI 一句话）：
+一键安装（复制粘贴给任意 AI 一句话，不用背链接）：
 
 ```
-把 https://github.com/1648714300/localdate 这个技能装到你的 skills 目录（git clone 后按 SKILL.md 走），然后帮我排这个周末的约会。
+帮我装「约会军师」这个技能：GitHub 搜 localdate，装到 skills 目录，然后说 /date 排这个周末的约会。
 ```
+
+（嫌打字麻烦就直接发 `装约会军师` 四个字，AI 按名字去搜；Windows 一行命令：`irm https://raw.githubusercontent.com/1648714300/localdate/main/install.ps1 | iex`）
 
 ---
 
@@ -19,7 +21,7 @@
 项目叫「约会军师·LocalDate」，开源，本地跑，不用注册不用充值。它管开口之后去哪，狗头军师管怎么开口。
 
 一键安装，把这句话复制给你的 AI：
-把 https://github.com/1648714300/localdate 这个技能装到你的 skills 目录（git clone 后按 SKILL.md 走），然后帮我排这个周末的约会。
+帮我装「约会军师」这个技能：GitHub 搜 localdate，装到 skills 目录，然后说 /date 排这个周末的约会。
 
 #约会 #约会地点 #本地生活 #开源项目
 
@@ -47,4 +49,4 @@
 不碰隐私数据不上云，城市包按 MIT 开，POI 数据 CC BY-SA。欢迎大家给 city-packs 提 PR 加自己城市的包。
 
 一键安装，把这句话复制给你的 AI：
-把 https://github.com/1648714300/localdate 这个技能装到你的 skills 目录（git clone 后按 SKILL.md 走），然后帮我排这个周末的约会。
+帮我装「约会军师」这个技能：GitHub 搜 localdate，装到 skills 目录，然后说 /date 排这个周末的约会。
