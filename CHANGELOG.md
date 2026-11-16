@@ -18,7 +18,7 @@
 ## v0.2 — 2026-11-16
 
 - 黑名单机制废弃，改为 Bradley-Terry / Elo 降权学习（K=24、λ=0.05、UCB c=40、heat 权重 0.15），新增 `ALGORITHM.md` 与 `tools/score_lite.py`。
-- 新增收割工具链 `tools/harvester/`（一键安装、运行、CSV→库表转换、合规红线）。
+- 新增收割工具链 `tools/harvester/`（一键安装、运行、CSV→库表转换、合规慎用）。
 - 新增 `city-pack-template/` 四模板。
 
 ## v0.1 — 2026-11-16

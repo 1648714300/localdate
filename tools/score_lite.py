@@ -10,6 +10,7 @@ PRIOR = {  # 先验评分（Elo 尺度，1500 均值）
     "event_limited": 1600, "animal": 1580, "performance": 1580, "park": 1560,
     "night_market": 1520, "sport_light": 1500, "static_sight": 1450,
     "old_street": 1440, "handcraft": 1430, "home_routine": 1400,
+    "new_venue": 1570, "food": 1520, "free_class": 1430, "hiking": 1420,
 }
 SLEEP_THRESHOLD = 1440
 

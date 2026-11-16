@@ -1,3 +1,4 @@
 tools/harvester/MediaCrawler/
 data/
 *.csv
+feedback/rounds.json

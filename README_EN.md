@@ -7,7 +7,7 @@ A **Skill** for AI assistants. Say "where should we go this weekend" and get 15 
 **One-line install** (paste into your assistant, replacing the URL):
 
 ```
-Download and install https://github.com/<your-name>/localdate as a local Skill,
+Download and install https://github.com/1648714300/localdate as a local Skill,
 then read city-packs/huainan/ and give me one round of date plans.
 ```
 

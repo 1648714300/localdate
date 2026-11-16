@@ -1,0 +1,14 @@
+[
+ {
+  "round": 12,
+  "kept": [
+   "picking",
+   "boat",
+   "sport_light"
+  ],
+  "rejected": [
+   "mall",
+   "movie"
+  ]
+ }
+]

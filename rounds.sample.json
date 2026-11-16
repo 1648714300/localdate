@@ -126,5 +126,19 @@
    "mall",
    "static_sight"
   ]
+ },
+ {
+  "round": 11,
+  "kept": [
+   "new_venue",
+   "performance",
+   "handcraft",
+   "picking",
+   "hot_spring"
+  ],
+  "rejected": [
+   "free_class",
+   "hiking"
+  ]
  }
 ]
