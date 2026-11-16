@@ -7,7 +7,7 @@
 **一句话安装**（复制给你的 AI 助手，把 URL 换成你的仓库地址）：
 
 ```
-请将公开仓库 https://github.com/<your-name>/localdate 下载并安装为本地 Skill，
+请将公开仓库 https://github.com/1648714300/localdate 下载并安装为本地 Skill，
 然后读 city-packs/huainan/，给我一轮约会方案。
 ```
 
