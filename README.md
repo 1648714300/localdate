@@ -15,7 +15,7 @@
 **方式一 · 用名字指（推荐）**
 
 ```
-装「约会军师」。GitHub 上搜 localdate，作者 1648714300，描述里写着「狗头军师的约会场景版」，装成 skills 目录下的本地技能。
+装「约会军师」。GitHub 搜「约会军师」四个字，第一个就是（实测唯一命中；只搜 localdate 会被 Java 的 LocalDate 工具库淹没，所以认准中文名）。装成 skills 目录下的本地技能。
 ```
 
 名字才是主键：仓库名 `localdate`，标题「约会军师 · LocalDate」，description 和 topics 里都带 `goutoujunshi` / `dating` / `date-ideas`。那串数字只是账号身份证，不用记。
