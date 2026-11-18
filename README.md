@@ -187,10 +187,18 @@ localdate/
 ├── feedback/
 │   └── feedback.jsonl          # 每轮一行 kept/rejected（本地，不上传）
 ├── .github/                     # issue 模板（报一轮排序 / 报地点错误）+ CI 自检
+├── scripts/
+│   └── verify.py               # 交付前自检，零依赖（校验元信息/目录/城市包）
 └── tools/
     ├── score_lite.py           # 降权学习，零依赖
     ├── feedback.py             # jsonl -> rounds.json，打印每个特征的升/降
     └── harvester/              # 探店内容收割
+```
+
+交付前自检：
+
+```bash
+python scripts/verify.py        # 全绿再交付；缺 agent_created、缺城市包会报出来
 ```
 
 ---
